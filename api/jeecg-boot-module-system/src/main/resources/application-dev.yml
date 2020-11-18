@@ -139,7 +139,7 @@ spring:
           #driver-class-name: com.mysql.jdbc.Driver
   #redis 配置
   redis:
-    database: 1
+    database: 0
     host: 127.0.0.1
     lettuce:
       pool:
@@ -194,8 +194,8 @@ jeecg :
   qiniu:
     accessKey: ??
     secretKey: ??
-    bucketName: teaching
-    staticDomain: //qn.teaching.vip
+    bucketName: teaching-open
+    staticDomain: //open.qn.teaching.vip
     
   # ElasticSearch 设置
   elasticsearch:
